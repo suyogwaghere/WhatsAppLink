@@ -1,0 +1,23 @@
+{
+  "name": "whatsapplink",
+  "version": "1.0.0",
+  "description": "generates whatsapp link",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suyogwaghere/WhatsAppLink.git"
+  },
+  "author": "suyog",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/suyogwaghere/WhatsAppLink/issues"
+  },
+  "homepage": "https://github.com/suyogwaghere/WhatsAppLink#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "path": "^0.12.7"
+  }
+}
