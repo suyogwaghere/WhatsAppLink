@@ -9,6 +9,7 @@ app.use(express.static(paths.join(__dirname, "public")));
 
 app.get("/", (req, res) => {
   res.sendFile(__dirname + "/index.html");
+  console.log("page hosted");
 });
 
 app.listen(PORT, () => {
